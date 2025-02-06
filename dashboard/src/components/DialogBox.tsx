@@ -11,9 +11,8 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import ColorText from "./ColorText";
-interface DialogProps {}
 
-const DialogBox: React.FC<DialogProps> = () => {
+const DialogBox: React.FC = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>

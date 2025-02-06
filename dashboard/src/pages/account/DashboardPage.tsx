@@ -21,9 +21,8 @@ import {
 import { NumberFormater } from "@/functions/NumberFormater";
 import { ChartLine, DollarSign, ShoppingCart, UserRound } from "lucide-react";
 
-interface DashboardPageProps {}
 
-const DashboardPage: React.FC<DashboardPageProps> = () => {
+const DashboardPage: React.FC = () => {
   return (
     <section className="p-3">
       {/* // report data */}

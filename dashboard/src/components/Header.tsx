@@ -14,9 +14,8 @@ import ThemeChanger from "./ThemeChanger";
 import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-interface HeaderProps {}
 
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC = () => {
   const theme = useAppSelector((s) => s.Theme.value);
   const user = useAppSelector((s) => s.User.user);
   let [paths, setPaths] = useState<string[]>([]);

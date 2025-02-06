@@ -1,4 +1,4 @@
-const serverUrl = 'http://localhost:8000/api/v1'
+const serverUrl = process.env.VITE_SERVER_URL
 
 // All requests should be withCredentials=true
 
